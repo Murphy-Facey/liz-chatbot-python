@@ -1,0 +1,151 @@
+{
+    "degrees": [
+        {
+            "name": "Batchelor of Engineering in Civil Engineering",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/B.Eng.%20Civil%20Engineering.pdf",
+            "type": "engineering",
+            "cost": "1952006.52",
+            "associated_careers": ["Civil Engineer", "Foundation Engineer", "Structural Engineer"]
+        },
+        {
+            "name": "Batchelor of Engineering in Industrial Engineering",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/industrial-engineering",
+            "type": "engineering",
+            "cost": "1782590.01",
+            "associated_careers": ["Manufactoring Engineer", "Producion Engineer", "Technological officer"]
+        },
+        {
+            "name": "Batchelor of Engineering in Mechanical Engineering",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/BEng%20in%20Mechanical%20Engineering.pdf",
+            "type": "engineering",
+            "cost": "1782590.01",
+            "associated_careers": ["Mechinal Engineer", "Controls Enginner"]
+        },
+        {
+            "name": "Batchelor of Engineering in Chemical Engineering",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/Module%20selection%20guide%2020_21.pdf",
+            "type": "engineering",
+            "cost": "1710115.67",
+            "associated_careers": ["Process Engineer", "Process Analyst", "Environmental Engineering"]
+        },
+        {
+            "name": "Batchelor of Engineering in Electrical and Computing Engineering",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/B.Eng.%20Electrical%20-%20Computer%20Engineering%20.pdf",
+            "type": "engineering",
+            "cost": "1809225.88",
+            "associated_careers": ["Electrical Engineer", "System Developer", "Power Plant Designer"]
+        },
+        {
+            "name": "Batchelor of Engineering in Electrical Engineering",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/Diploma%20in%20Electrical%20Engineering.pdf",
+            "type": "engineering",
+            "cost": "1710115.67",
+            "associated_careers": ["Electrical Engineer", "System Developer", "Power Plant Designer"]
+        },
+        {
+            "name": "Batchelor of Science in Information Systems",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/BSc.%20Computing%20-%20Information%20Technology%20with%20Information%20Systems%20.pdf",
+            "type": "computing",
+            "cost": "1708567.07",
+            "associated_careers": ["Auditor", "IT Help Desk Officer"]
+        },
+        {
+            "name": "Batchelor of Science in Networking",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/BSc.%20Computing%20-%20Information%20Technology%20with%20Networking%20.pdf",
+            "type": "computing",
+            "cost": "1708567.07",
+            "associated_careers": ["Networking Specialist"]
+        },
+        {
+            "name": "Batchelor of Science in Enterprise Systems",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/BSc.%20Computing-%20Information%20Technology%20with%20Enterprise%20Systems.pdf",
+            "type": "computing",
+            "cost": "1708567.07",
+            "associated_careers": ["System Administrator", "Database Administrator", "Software Developer"]
+        },
+        {
+            "name": "Batchelor of Science in Multimedia",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/it-multimedia",
+            "type": "computing",
+            "cost": "1708567.07",
+            "associated_careers": ["Multimedia Specialist"]
+        },
+        {
+            "name": "Batchelor of Science in Computing",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/faculty-of-engineering-computing-fenc/BSc.%20Computing%20-%20Computer%20Science.pdf",
+            "type": "computing",
+            "cost": "1708567.07",
+            "associated_careers": ["Software Developer", "System Analyst", "Technological Consultants"]
+        },
+        {
+            "name": "Batchelor of Business Administration in Accounting",
+            "module_guide_link": "http://utech.edu.jm/academics/colleges-faculties/cobam/course-details/bba-accounting-major",
+            "type": "business",
+            "cost": "1355486.95",
+            "associated_careers": ["Financial Analyst", "Securitues Broker", "Accountant"]
+        },
+        {
+            "name": "Batchelor of Business Administration in Finance",
+            "module_guide_link": "http://utech.edu.jm/academics/colleges-faculties/cobam/course-details/UPDATED%20-%20Finance%20Revised%20Diet%20AY2020-21.pdf",
+            "type": "business",
+            "cost": "1355486.95",
+            "associated_careers": ["Financial Advisor", "Loan Manager/Officer", "Fund Administrator"]
+        },
+        {
+            "name": "Batchelor of Business Administration in General Management",
+            "module_guide_link": "http://utech.edu.jm/academics/colleges-faculties/cobam/course-details/Diet%20Sheet%20-%20General%20Management%20Major%202016-7.pdf",
+            "type": "business",
+            "cost": "1355486.95",
+            "associated_careers": ["HRM Manganer", "PR Manager"]
+        },
+        {
+            "name":"Batchelor of Business Administration in Marketing",
+            "module_guide_link": "http://utech.edu.jm/academics/colleges-faculties/cobam/course-details/Diet%20Sheet%20-%20Marketing%20Major%202016-7.pdf",
+            "type": "business",
+            "cost": "1355486.95",
+            "associated_careers": ["Brand Manager", "Product Manager"]
+        },
+        {
+            "name": "Batchelor of Science in Nursing",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/college-of-health-sciences-cohs-1/BSN%20Diet%202020.pdf",
+            "type": "medicine",
+            "cost": "",
+            "associated_careers": ["Registered Nurse"]
+        },
+        {
+            "name": "Batchelor of Science in Midwifery (Direct Entry)",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/college-of-health-sciences-cohs-1/Module%20selection%204%20YEAR%20DIRECT%20ENTRY.pdf",
+            "type": "medicine",
+            "cost": "",
+            "associated_careers": ["Midwife"]
+        },
+        {
+            "name": "Batchelor of Science in Medical Technology",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/college-of-health-sciences-cohs-1/B.Sc.%20in%20Medical%20Technology.pdf",
+            "type": "medicine",
+            "cost": "",
+            "associated_careers": [""]
+        },
+        {
+            "name": "Batchelor of Science in Child and Adolescent Development",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/college-of-health-sciences-cohs-1/CHad%20modules%20Guides.pdf",
+            "type": "medicine",
+            "cost": "",
+            "associated_careers": []
+        },
+        {
+            "name": "Bachelor of Pharmacy",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/college-of-health-sciences-cohs-1/BPharm%20Course%20Structure.pdf",
+            "type": "medicine",
+            "cost": "",
+            "associated_careers": ["Community Pharmacist", "Hospital Pharmacist"]
+        },
+        {
+            "name": "Batchelor of Science in Pharmaceutical Technology",
+            "module_guide_link": "http://utech.edu.jm/admissions/enrolment/undergraduate-students/module/college-of-health-sciences-cohs-1/BSc.%20in%20Pharm.%20Technology%20Module%20Selection%20Guide%20with%20Pre%20-%20Co-Requisites%20-%20August%2010-%202020.pdf",
+            "type": "medicine",
+            "cost": "",
+            "associated_careers": ["Can work in the pharmacheutical, nutraceutical cosmetic industries"]
+        }
+    ]
+}

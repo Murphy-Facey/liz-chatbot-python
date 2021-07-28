@@ -1,0 +1,445 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hey",
+        "hello",
+        "yow",
+        "y pree?",
+        "what is up?",
+        "pree",
+        "sup",
+        "howdy",
+        "hi"
+      ],
+      "responses": [
+        "Hey, I am the Utech Customer Service chatbot, but you can call me Liz. What is your name?"
+      ]
+    },
+    {
+      "tag": "start-conversation",
+      "patterns": ["let this trigger work", "let this trigger work"],
+      "responses": [
+        "So $name, is there anything in particular I could help you with today?\nPlease choose one of the following: 'course problems' or 'semester problems' or an faq"
+      ]
+    },
+    {
+      "tag": "identify-problem",
+      "patterns": [
+        "I am having semester problems.",
+        "I am having course problems.",
+        "course problems",
+        "semester problems",
+        "course",
+        "semester"
+      ],
+      "responses": ["$name, what would you like to know relating to $problem?"]
+    },
+    {
+      "tag": "view-course-offered",
+      "patterns": [
+        "what course do you have?",
+        "which courses do you offer?",
+        "a wah unuh teach ya?",
+        "what are the courses you offer?",
+        "wah course mi cah do dung ya?"
+      ],
+      "responses": ["view_course_payload"]
+    },
+    {
+      "tag": "no-course-area",
+      "patterns": [
+        "no",
+        "no sah",
+        "not interested in these",
+        "not interested",
+        "nope"
+      ],
+      "responses": ["view_all_courses_payload"]
+    },
+    {
+      "tag": "interested-course-area",
+      "patterns": [
+        "interested course event",
+        "interested course event"
+      ],
+      "responses": ["view_some_courses_payload"]
+    },
+
+    {
+      "tag": "selected-area",
+      "patterns": ["trigger selected area"],
+      "responses": ["course_info_payload"]
+    },
+    {
+      "tag": "course-cost",
+      "patterns": [
+        "what is the cost of $course",
+        "how much is the overall tuition for $course",
+        "how much will $course cost",
+        "how much do I have to pay for $course",
+        "what is the cost for $course"
+      ],
+      "responses": ["course_cost_payload"]
+    },
+    {
+      "tag":"course-careers",
+      "patterns":["what can I do with", "what kind of job can I get with", "what will I be able to do with", "what jobs are available for "],
+      "responses":["course_career_payload"]
+    },
+    {
+      "tag": "module-guides",
+      "patterns": ["can I have the module guide for $course", "where is the module selection for $course", "module guide for $course"],
+      "responses": ["module_guide_payload"]
+    },
+    {
+      "tag": "view-semester-schedules",
+      "patterns": [
+        "do you have the semester schedule",
+        "yuh hav di semester schedule",
+        "semester schedule"
+      ],
+      "responses": []
+    },
+    {
+      "tag":"semester_links",
+      "patterns":["where do I go to add and drop?", "where is the withdrawal form", "add and drop link", "withdrawal form", "how do I add and drop?"],
+      "responses":["semester_link_payload"]
+    },
+    {
+      "tag": "how-long-questions",
+      "patterns": [
+        "how long is the add and drop period?",
+        "how long is the semester?",
+        "how long is withdrawal period",
+        "what is the duration of add and drop?",
+        "what is the duration of withdrawal?",
+        "what is the timeframe for withdrawal?",
+        "what is the timeframe for semester?",
+        "how long is di semester"
+      ],
+      "responses": ["date_payload"]
+    },
+    {
+      "tag": "when-started-questions",
+      "patterns": [
+        "when does add and drop starts?",
+        "when can I start adding course?",
+        "when can I start dropping course?",
+        "what date is the begeinning of the semester",
+        "what date is the beginning of withdrawal period",
+        "when does the semester starts?",
+        "when does the semester begins",
+        "when does add and drop begins",
+        "when is the start of the withdrawal"
+      ],
+      "responses": ["date_payload"]
+    },
+    {
+      "tag": "when-ended-questions",
+      "patterns": [
+        "when does add and drop ends?",
+        "when can I not add course?",
+        "when can I not drop course?",
+        "what date is the ending of the semester",
+        "what date is the ending of withdrawal period",
+        "when does the semester ends?",
+        "when does the semester ends",
+        "when does add and drop ends",
+        "when is the end of the withdrawal"
+      ],
+      "responses": ["date_payload"]
+    },
+    {
+      "tag": "enrollment-faqs-0",
+      "patterns": [
+        "Will payments at NCB, Paymaster or UTech,Ja allow for Financial Clearance immediately?"
+      ],
+      "responses": [
+        "No, processing of all payment transactions requires at least 2 clear workings day."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-1",
+      "patterns": [
+        "How will\u00a0UTech,Ja treat excess funds received from the Students\u2019 Loan Bureau?"
+      ],
+      "responses": [
+        "The Students\u2019 Loan Bureau is committed to paying Tuition and Exam fees only. All excess funds received must be returned to the Bureau."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-2",
+      "patterns": ["Ja"],
+      "responses": [
+        "You will have to pay the difference or apply to the Students\u2019 Loan Bureau for reassessment."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-3",
+      "patterns": [
+        "What will happen if the Students\u2019 Loan Bureau remits my loan short?"
+      ],
+      "responses": [
+        "No. All cheques originating from a Letter of Commitment must be received at the Finance & Business Service Office (Scholarship Office), so that both sponsor and student accounts can be updated accordingly."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-4",
+      "patterns": [
+        "If I register with a Letter of Commitment for a scholarship, can I make payment at the National Commercial Bank upon receiving the cheque from my sponsor?"
+      ],
+      "responses": [
+        "Refunds will not be processed from a Letter of Commitment, but a refund of the excess in payment will be made after the University receives payment from the sponsor and the sponsor\u2019s authorisation for UTech to make the refund payable to the student."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-5",
+      "patterns": [
+        "If my sponsor commits to paying more than my fees, how early will UTech give me a refund?"
+      ],
+      "responses": [
+        "A student can only be refunded his/her portion after SLB remits payment to the University."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-6",
+      "patterns": [
+        "If I pay my fees to register and then am approved for a SLB loan during the year, when will I receive a refund?"
+      ],
+      "responses": [
+        "No. It is the responsibility of the student to check e:Vision to ensure that the modules registered for are on his/her diet. Missing modules must be reported to the Admissions Office, and not to the Accounts Department."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-7",
+      "patterns": [
+        "I paid my fees in full but no modules are printed on my exam card. Will I be allowed to write the exams?"
+      ],
+      "responses": [
+        "No. It is the sole responsibility of the student to ensure that the Students\u2019 Loan Bureau remits payment to the University. Students can either check with Accounts Receivable, through the Students\u2019 Portal on e:Vision, or with the Students Loan Bureau to verify that this has been done."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-8",
+      "patterns": [
+        "If my Loan is approved by the Students\u2019 Loan Bureau and I have completed all the necessary processes at the Bureau, will UTech ensure that the Bureau remits payment on my behalf?"
+      ],
+      "responses": [
+        "All students whose fees are paid by the Students\u2019 Loan Bureau must collect their SLB receipts at Accounts Receivable each semester as soon as they are available."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-9",
+      "patterns": [
+        "How will I know the actual payment that the Students\u2019 Loan Bureau remits to the University?"
+      ],
+      "responses": [
+        "The Students\u2019 Loan Bureau awards \u2018Grant-In-Aid\u2019 to students after evaluating their applications. However, students should check with SLB, the Students\u2019 Receivable Unit in the Finance and Businesses Services Division and the Notice Boards on campus to see if they were approved for same."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-10",
+      "patterns": [
+        "If the Students\u2019 Loan Bureau (SLB) pays my fees, will I be awarded the \u2018Grant- In-Aid\u2019?"
+      ],
+      "responses": [
+        "The Grant-In-Aid is approved for students deemed needy by the Students\u2019 Loan Bureau and, as such, students who do not need the Loan will not be given the Grant-In-Aid."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-11",
+      "patterns": [
+        "What if I only need the \u2018Grant-In-Aid\u2019 and not the Loan?"
+      ],
+      "responses": [
+        "The University will notify the Students\u2019 Loan Bureau immediately and return both the Loan and the Grant-In-Aid."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-12",
+      "patterns": [
+        "What will happen if I receive a full scholarship after being approved for the Students\u2019 Loan and Grant-In-Aid?"
+      ],
+      "responses": [
+        "All accounts should be financially cleared as specified by the Finance Department in order to sit the final exam."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-13",
+      "patterns": [
+        "If my account is in arrears, will UTech give me the opportunity to write my final exams?"
+      ],
+      "responses": [
+        "No, once you have paid your fees you are locked into that plan."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-14",
+      "patterns": [
+        "If I registered on a plan and decide that I need to change my option, can this be done?"
+      ],
+      "responses": [
+        "UTech will not penalize you if the payment to our collecting agencies was made to them on time yet they remitted it to us late. The late remittance will be a matter between the University and the collecting agency."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-15",
+      "patterns": [
+        "If I make payment at the National Commercial Bank or Paymaster and either agency remits the payment to UTECH 24 hours after the midnight of the due date, will I have to pay the late fee?"
+      ],
+      "responses": [
+        "If a student registers for a module by submitting the completed Re-do forms to the Admissions Office for processing and is absent from the examination without permission, a failing grade will be awarded and he/she will be liable for the associated charges. (See \u201cNotice to Students Registering for Re-do\u201d on the reverse of the \u201cRe-do Registration\u201d form.)"
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-16",
+      "patterns": [
+        "If I register for a Re-do but did not write the exam as I was unable to pay for the Re-do, will I have to pay the outstanding fee before registering for another school year?"
+      ],
+      "responses": [
+        "The student should write to the Students Relations Office and the Faculty so that the case can be examined and a decision taken by the Faculty Board."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-17",
+      "patterns": [
+        "If I registered and paid my Re-do fees but did not write the exams, can I request a refund of my payment or can the payment be deferred to another school year?"
+      ],
+      "responses": [
+        "The \u201cFee Breakdown\u201d and receipts must be copied and the copies taken to the Accounts Department and a Request for Refund Form completed. It will take a minimum of 10 \u2013 15 working days after the documents are submitted before a cheque is prepared in the student\u2019s name."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-18",
+      "patterns": [
+        "If I have overpaid on my fees, what is the procedure for the funds to be returned and how long would it take?"
+      ],
+      "responses": [
+        "All outstanding balances must be settled before a student is given financial clearance for a new academic year."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-19",
+      "patterns": [
+        "Will I be allowed to register for a new academic year with a balance outstanding?"
+      ],
+      "responses": ["Yes, No student is exempted from this fee."]
+    },
+    {
+      "tag": "enrollment-faqs-20",
+      "patterns": [
+        "If I already have an insurance/health card, am I still required to pay the amount which is on the \u201cFee Breakdown\u201d?"
+      ],
+      "responses": [
+        "No. Students are not entitled to a reduction in their fees if they have received exemptions."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-21",
+      "patterns": [
+        "If I receive exemption for a certain number of modules will there be a reduction in my tuition fees?"
+      ],
+      "responses": [
+        "Yes. Students are required to pay the auxiliary fees as SLB is responsible for tuition and examination fees only."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-22",
+      "patterns": [
+        "If I am sponsored by SLB do I still have to pay to register?"
+      ],
+      "responses": ["No, Only full payments are acceptable."]
+    },
+    {
+      "tag": "enrollment-faqs-23",
+      "patterns": ["Will I be allowed to do part-payment for re-do?"],
+      "responses": [
+        "No. students are not registered until they have completed the registration process online."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-24",
+      "patterns": [
+        "After I have received my fee breakdown and made the necessary payments, am I registered?"
+      ],
+      "responses": [
+        "The student can request a letter from the Accounts Department stating the fees. This will take a minimum of three (3) working days."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-25",
+      "patterns": [
+        "If my package is not ready and I need the fee breakdown to take to a financial institution for assistance, what can I do?"
+      ],
+      "responses": [
+        "Students are required to act according to the payment plan they selected on registration."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-26",
+      "patterns": [
+        "If I am partially sponsored, can I do part-payment on the balance?"
+      ],
+      "responses": [
+        "Once the letter is approved by the Finance Office or the Financial Aid Office, you will be allowed to register."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-27",
+      "patterns": ["Will I be allowed to register with a Commitment Letter?"],
+      "responses": [
+        "If tuition and accommodation fees are quoted in JA$ or US$, the payment must be in the respective currency."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-28",
+      "patterns": ["Can we pay our fees in US$ if it is quoted in JA$?"],
+      "responses": [
+        "Payment of the Commitment Fee is an indication to the University that a prospective student is seriously considering pursuing studies. This fee represents the ancillary charges of your school fee."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-29",
+      "patterns": ["Why do we pay a Commitment Fee?"],
+      "responses": [
+        "To register for re-do, year 4-5 students should retrieve \u201cRe-do\u201d forms from their respective Faculty, complete, seek approval from the authorized Faculty officer, proceed to the Admissions Office for a fee breakdown, and then to Accounts for payment. Year 1\u20133 students should select the module(s) online and pay fees at the next available sitting."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-30",
+      "patterns": ["What is the procedure to register for re-do?"],
+      "responses": [
+        "The designated personnel at the lab must immediately sign and stamp the back of the receipt requesting that refund be made to student. Receipts not submitted on the same day will be paid by cheque, with a minimum of 10 working days."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-31",
+      "patterns": [
+        "How do you pay to \u201ctop-up\u201d your printing quota at SCIT, CSA, and SBLM for print credit?"
+      ],
+      "responses": [
+        "Payments can be made using debit/credit card, Manager\u2019s Cheque (payable to the University of Technology, Jamaica). No cash allowed on campus for Tuition fee, only for miscellaneous transactions."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-32",
+      "patterns": [
+        "I paid to top up my printing quota but was informed at the lab that they are out of paper. Can I receive a refund of my payment?"
+      ],
+      "responses": [
+        "Accommodation fee breakdown is quoted per semester so you pay per semester. Part payment is not allowed."
+      ]
+    },
+    {
+      "tag": "enrollment-faqs-33",
+      "patterns": [
+        "If my Identification card is lost what should be done to get another?"
+      ],
+      "responses": [
+        "Students are required to ask the Student Receivables Section for a letter stating their account balance. This usually takes at least three (3) working days or students can visit the Student Portal."
+      ]
+    }
+  ]
+}

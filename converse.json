@@ -1,0 +1,150 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hey",
+        "hello",
+        "yow",
+        "y pree?",
+        "what is up?",
+        "pree",
+        "sup",
+        "howdy",
+        "hi"
+      ],
+      "responses": [
+        "Hey, I am the Utech Customer Service chatbot, but you can call me Liz. What is your name?"
+      ]
+    },
+    {
+      "tag": "start-conversation",
+      "patterns": ["let this trigger work", "let this trigger work"],
+      "responses": [
+        "So $name, is there anything in particular I could help you with today?\nPlease enter one of the following: 'course problems' or 'semester problems'"
+      ]
+    },
+    {
+      "tag": "identify-problem",
+      "patterns": [
+        "I am having semester problems.",
+        "I am having course problems.",
+        "course problems",
+        "semester problems",
+        "course",
+        "semester"
+      ],
+      "responses": ["$name, what would you like to know relating to $problem?"]
+    },
+    {
+      "tag": "view-course-offered",
+      "patterns": [
+        "what course do you have?",
+        "which courses do you offer?",
+        "a wah unuh teach ya?",
+        "what are the courses you offer?",
+        "wah course mi cah do dung ya?"
+      ],
+      "responses": ["view_course_payload"]
+    },
+    {
+      "tag": "no-course-area",
+      "patterns": [
+        "no",
+        "no sah",
+        "not interested in these",
+        "not interested",
+        "nope"
+      ],
+      "responses": ["view_all_courses_payload"]
+    },
+    {
+      "tag": "interested-course-area",
+      "patterns": [
+        "interested course event",
+        "interested course event"
+      ],
+      "responses": ["view_some_courses_payload"]
+    },
+
+    {
+      "tag": "selected-area",
+      "patterns": ["trigger selected area"],
+      "responses": ["course_info_payload"]
+    },
+    {
+      "tag": "course-cost",
+      "patterns": [
+        "what is the cost of $course",
+        "how much is the overall tuition for $course",
+        "how much will $course cost",
+        "how much do I have to pay for $course",
+        "what is the cost for $course"
+      ],
+      "responses": ["course_cost_payload"]
+    },
+    {
+      "tag":"course-careers",
+      "patterns":["what can I do with", "what kind of job can I get with", "what will I be able to do with", "what jobs are available for "],
+      "responses":["course_career_payload"]
+    },
+    {
+      "tag": "module-guides",
+      "patterns": ["can I have the module guide for $course", "where is the module selection for $course", "module guide for $course"],
+      "responses": ["module_guide_payload"]
+    },
+    {
+      "tag": "view-semester-schedules",
+      "patterns": [
+        "do you have the semester schedule",
+        "yuh hav di semester schedule",
+        "semester schedule"
+      ],
+      "responses": []
+    },
+    {
+      "tag": "how-long-questions",
+      "patterns": [
+        "how long is the add and drop period?",
+        "how long is the semester?",
+        "how long is withdrawal period",
+        "what is the duration of add and drop?",
+        "what is the duration of withdrawal?",
+        "what is the timeframe for withdrawal?",
+        "what is the timeframe for semester?",
+        "how long is di semester"
+      ],
+      "responses": ["date_payload"]
+    },
+    {
+      "tag": "when-started-questions",
+      "patterns": [
+        "when does add and drop starts?",
+        "when can I start adding course?",
+        "when can I start dropping course?",
+        "what date is the begeinning of the semester",
+        "what date is the beginning of withdrawal period",
+        "when does the semester starts?",
+        "when does the semester begins",
+        "when does add and drop begins",
+        "when is the start of the withdrawal"
+      ],
+      "responses": ["date_payload"]
+    },
+    {
+      "tag": "when-ended-questions",
+      "patterns": [
+        "when does add and drop ends?",
+        "when can I not add course?",
+        "when can I not drop course?",
+        "what date is the ending of the semester",
+        "what date is the ending of withdrawal period",
+        "when does the semester ends?",
+        "when does the semester ends",
+        "when does add and drop ends",
+        "when is the end of the withdrawal"
+      ],
+      "responses": ["date_payload"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "semesters": [
+        {
+            "sem": 2,
+            "semester_start": "06/01/2021",
+            "semester_end": "30/04/2021",
+            "add_drop_start": "23/12/2020",
+            "add_drop_end": "01/22/2021",
+            "module_selection_start": "23/12/2020",
+            "module_selection_end": "29/01/2021",
+            "withdrawal_form_link": "http://utech.edu.jm/forms/withdrawal-from-module-application-form/at_download/file",
+            "add_drop_link": "https://www.utech.edu.jm/AddDrop/Login.aspx?ReturnUrl=%2fAddDrop%2f",
+            "year": 2021
+        },
+        {
+            "sem": 3,
+            "semester_start": "17/03/2021",
+            "semester_end": "26/07/2021",
+            "add_drop_start": "03/03/2021",
+            "add_drop_end": "21/03/2021",
+            "module_selection_start": "03/03/2021",
+            "module_selection_end": "28/03/2021",
+            "withdrawal_form_link": "http://utech.edu.jm/forms/withdrawal-from-module-application-form/at_download/file",
+            "add_drop_link": "https://www.utech.edu.jm/AddDrop/Login.aspx?ReturnUrl=%2fAddDrop%2f",
+            "year": 2021
+        }
+    ]
+}
