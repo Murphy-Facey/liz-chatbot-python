@@ -1,5 +1,7 @@
 # Liz Chatbot
 
+![image](https://user-images.githubusercontent.com/55172328/127323871-cf91fad4-e129-47f1-a3ce-eb3b120ca836.png)
+
 A simple chatbot application using the Python. It was developed to handle customer service for the University of Technology, Jamaica. It is made of two sections, a conversation which is the semester problems and course problems and FAQs. 
 
 ## How to Install
